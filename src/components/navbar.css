@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.navbar_container{
+    border: 1px solid black;
+    display: flex;
+    height: calc(3.5rem-2px);
+    background-color: rgb(48, 48, 48);
+
+    justify-content: space-between;
+
+}
+.logo_navbar{
+    display: flex;
+    height: 3.5rem;
+}
+.burger{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: space-evenly;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    margin-left:0.5rem;
+    margin-right: 0.7rem;
+    border-radius: 100%;
+}
+
+.burger p{
+    margin: 0.5px;
+    width: 1.2rem;
+    height: 0.1rem;
+    background-color: rgb(160, 118, 118);
+}
+
+.logo_div_bar{
+    display: flex;
+}
+
+.yt_logo{
+    margin-top: 10px;
+    height: 40px;
+    
+}
+.yt_title{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    
+    
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.apps_box{
+    width: 25px;
+    margin: auto 0.7rem;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.appbox{
+    border: 1px solid white;
+    margin: 0.1rem;
+    width: 2px;
+    height: 2px;
+}
+
+.auth_cont_navbar{
+    width: fit-content;
+
+    margin: auto 0.5rem;
+    position: relative;
+    display: flex;
+
+}
+.auth_btn{
+    cursor: pointer;
+    color: rgb(0, 140, 255);
+    background-color: rgb(36, 36, 36);
+    border : 2px solid;
+    /* margin-bottom: 10px; */
+    padding: 0.4rem;
+    border-radius: 0.1rem;
+}
+.auth_btn b{
+    position: relative;
+    bottom: 4px;
+    
+}

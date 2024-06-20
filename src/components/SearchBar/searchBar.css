@@ -1,0 +1,88 @@
+.searchbar_container {
+    margin: auto;
+    flex-grow: 2;
+    display: flex;
+    height: 2.8rem;
+
+    /* background-color: red; */
+
+
+}
+
+.searchbar_container2 {
+    margin: auto;
+    /* background-color: blue; */
+    display: flex;
+    padding: 0 0rem 0rem 1rem;
+
+    background-color: transparent;
+
+
+}
+
+.search_div {
+    display: flex;
+    /* margin:auto; */
+    position: relative;
+    z-index: 91;
+    padding-left: 1rem;
+
+    border-radius: 40px;
+    background-color: black;
+
+    border: 2px solid rgb(101, 101, 101);
+
+}
+
+.ibox_searchbar{
+    background-color: black;
+    color: white;
+    /* margin-left: 2rem; */
+    width: 35rem;
+    border: none;
+    padding: 0.2rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    
+
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.seacrhicon_searchbar {
+    background-color: rgba(168, 168, 168, 0.289);
+    color: white;
+    cursor: pointer;
+    width: 2rem;
+    padding: 0.74rem;
+    border-radius: 0.1rem;
+
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transition: 0.2s;
+
+
+}
+
+.seacrhicon_searchbar:hover {
+    background-color: rgba(168, 168, 168, 0.436);
+    color: white;
+}
+
+.micicon_searchbar {
+    border-radius: 100%;
+    padding: 0.7rem;
+
+    background-color: rgb(88, 88, 88);
+}
+
+.vid_bell_navbar,
+.micicon_searchbar,
+.bellicon_searchbar {
+    color: whitesmoke;
+    margin: auto 0.7rem;
+
+}
